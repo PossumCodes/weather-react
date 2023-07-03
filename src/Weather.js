@@ -70,7 +70,7 @@ export default function Weather() {
               </div>
             </div>
           </div>
-          <footer>
+          <footer className="github-link">
             <a href="https://github.com/PossumCodes/weather-react">
               Open-source code on GitHub
             </a>

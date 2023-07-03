@@ -100,3 +100,7 @@ li::first-letter {
 .btn {
   --bs-btn-padding-x: 0.3rem;
 }
+
+.github-link {
+  font-size: 14px;
+}
