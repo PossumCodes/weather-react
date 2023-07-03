@@ -13,12 +13,12 @@ export default function Weather() {
   };
   return (
     <div className="Weather">
-      <div class="container">
-        <div class="weather-app-wrapper">
+      <div className="container">
+        <div className="weather-app-wrapper">
           <div class="weather-app">
             <form id="search-form" class="mb-3">
-              <div class="row">
-                <div class="col-9">
+              <div className="row">
+                <div className="col-9">
                   <input
                     type="search"
                     placeholder="Enter a city..."
@@ -27,7 +27,7 @@ export default function Weather() {
                     autocomplete="off"
                   />
                 </div>
-                <div class="col-3">
+                <div className="col-3">
                   <input
                     type="submit"
                     value="Search"
@@ -36,7 +36,7 @@ export default function Weather() {
                 </div>
               </div>
             </form>
-            <div class="overview">
+            <div className="overview">
               <h1 id="city">{weatherInfo.city}</h1>
               <ul>
                 <li>
@@ -44,9 +44,9 @@ export default function Weather() {
                 </li>
               </ul>
             </div>
-            <div class="row">
-              <div class="col-6">
-                <div class="d-flex weather-temperature">
+            <div className="row">
+              <div className="col-6">
+                <div className="d-flex weather-temperature">
                   <img
                     src="http://openweathermap.org/img/wn/03n@2x.png"
                     alt="Partly Cloudy"
@@ -54,11 +54,11 @@ export default function Weather() {
                   />
                   <div>
                     <strong id="temperature">{weatherInfo.temperature}</strong>
-                    <span class="units">°C°F</span>
+                    <span className="units">°C°F</span>
                   </div>
                 </div>
               </div>
-              <div class="col-6">
+              <div className="col-6">
                 <ul>
                   <li>
                     Humidity: <span>{weatherInfo.humidity}</span>%
